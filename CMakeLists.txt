@@ -13,7 +13,8 @@ set(IMGUI_SOURCES
     backends/imgui_impl_glfw.cpp
     backends/imgui_impl_vulkan.cpp
     backends/imgui_impl_opengl3.cpp
-    backends/imgui_impl_glut.cpp
+    #backends/imgui_impl_glut.cpp
+    #uncomment this for glut support
 )
 
 add_library(imgui STATIC ${IMGUI_SOURCES})
